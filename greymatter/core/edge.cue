@@ -64,7 +64,7 @@ Edge: {
 			mesh_id:                   mesh.metadata.name
 			service_id:                defaults.edge.key
 			version:                   "v1.7.1"
-			description:               "EDIT ME: Edge ingress for grocerylist"
+			description:               "HEY I AM THE REAL EDGE"
 			business_impact:           "low"
 			enable_instance_metrics:   true
 			enable_historical_metrics: false

@@ -28,7 +28,7 @@ spec:
             name: proxy
           env:
             - name: XDS_CLUSTER
-              value: edge-grocerylist
+              value: edge_grocerylist
             - name: ENVOY_ADMIN_LOG_PATH
               value: /dev/stdout
             - name: PROXY_DYNAMIC
@@ -62,7 +62,7 @@ spec:
     protocol: TCP
     targetPort: 10809
   selector:
-    greymatter.io/cluster: edge-grocerylist
+    greymatter.io/cluster: edge_grocerylist
   type: LoadBalancer
 
 ---
